@@ -257,7 +257,7 @@ video {
     display: grid;
     grid-template-columns: 30% 40% 30%;
     gap: 8px;
-    margin: 0 8px;
+    margin: 0;
     background-color: #3B1D70;
     height:100%;
 	  border:dotted 2px #666666;
