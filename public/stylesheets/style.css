@@ -252,8 +252,8 @@ video {
 }
 
 /* スマホ写した時 */
-@media screen and (max-width: 480px){
-  .room {
+@media screen and (max-width: 767px){
+  /* .room {
     display: grid;
     grid-template-columns: 30% 40% 30%;
     gap: 8px;
@@ -261,7 +261,16 @@ video {
     background-color: #3B1D70;
     height:100%;
 	  border:dotted 2px #666666;
-  }
+  } */
+  /* 相手のビデオ画面変更 */
+.room .remote-streams {
+  width: 100%;
+  height: 90%;
+  background-color: #f6fbff;
+  border: solid;
+  background-color: #3B1D70;
+  border-color: #f6fbff;
+}
 }
 
 /* オーバーレイ */
