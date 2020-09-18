@@ -102,8 +102,8 @@ video {
   display: inline-block;
   text-decoration: none;
   color: #FFF;
-  width: 60px;
-  height: 60px;
+  width: 120px;
+  height: 120px;
   line-height: 60px;
   border-radius: 50%;
   text-align: center;
@@ -113,8 +113,8 @@ video {
 .camera-btn:before {
   content: "";
   display: inline-block;
-  width: 30px;
-  height: 30px;
+  width: 60px;
+  height: 60px;
   background: url("./video_ON.png") no-repeat;
   background-size: contain;
   vertical-align: middle;
@@ -129,8 +129,8 @@ video {
   text-decoration: none;
   background: #E26522;
   color: #FFF;
-  width: 60px;
-  height: 60px;
+  width: 120px;
+  height: 120px;
   line-height: 60px;
   border-radius: 50%;
   text-align: center;
