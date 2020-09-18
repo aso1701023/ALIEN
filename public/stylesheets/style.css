@@ -102,8 +102,8 @@ video {
   display: inline-block;
   text-decoration: none;
   color: #FFF;
-  width: 600px;
-  height: 600px;
+  width: 5vw;
+  height: 4vh;
   line-height: 60px;
   border-radius: 50%;
   text-align: center;
