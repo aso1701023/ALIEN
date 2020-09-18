@@ -71,10 +71,9 @@ video {
 
 /* 相手のビデオ画面変更 */
 .room .remote-streams {
-  background-color: #f6fbff;
   border: solid;
   background-color: #3B1D70;
-  border-color: #f6fbff;
+  border-color: #3B1D70;;
 }
 
 .room .messages {
