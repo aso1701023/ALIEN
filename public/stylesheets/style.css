@@ -70,6 +70,8 @@ video {
 
 /* 相手のビデオ画面変更 */
 .room .remote-streams {
+  width: 100vw;
+  height: 80vh;
   background-color: #f6fbff;
   border: solid;
   background-color: #3B1D70;
