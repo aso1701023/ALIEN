@@ -102,8 +102,8 @@ video {
   display: inline-block;
   text-decoration: none;
   color: #FFF;
-  width: 5vw;
-  height: 4vh;
+  width: 60px;
+  height: 60px;
   line-height: 60px;
   border-radius: 50%;
   text-align: center;
@@ -279,7 +279,7 @@ video {
 }
 
 /* スマホ写した時 */
-@media screen and (max-width: 767px){
+@media screen and (max-width: 480px){
   /* .room {
     display: grid;
     grid-template-columns: 30% 40% 30%;
@@ -290,25 +290,12 @@ video {
 	  border:dotted 2px #666666;
   } */
   /* 相手のビデオ画面変更 */
-.room .remote-streams {
-  width: 100vw;
-  height: 80vh;
-  background-color: #f6fbff;
-  border: solid;
-  background-color: #3B1D70;
-  border-color: #f6fbff;
-}
-video {
-  background-color: #111;
-  width: 100vw;
-  height: 80vh;
-}
 .camera-btn{
   display: inline-block;
   text-decoration: none;
   color: #FFF;
-  width: 60px;
-  height: 60px;
+  width: 120px;
+  height: 120px;
   line-height: 60px;
   border-radius: 50%;
   text-align: center;
@@ -318,8 +305,8 @@ video {
 .camera-btn:before {
   content: "";
   display: inline-block;
-  width: 30px;
-  height: 30px;
+  width: 60px;
+  height: 60px;
   background: url("./video_ON.png") no-repeat;
   background-size: contain;
   vertical-align: middle;
