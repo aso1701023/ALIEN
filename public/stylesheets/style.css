@@ -27,7 +27,7 @@ video {
 .container {
   margin-left: auto;
   margin-right: auto;
-  width: 100vw;
+  width: 375px;
 }
 
 /* p2p-media styles */
