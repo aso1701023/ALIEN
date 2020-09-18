@@ -88,6 +88,8 @@ video {
 
 /*人数変更*/
 .remote-streams {
+  width: 100vw;
+  height: 80vh;
   display: grid;
   /* ここいじれ */
   grid-template-columns: 1fr 1fr;
