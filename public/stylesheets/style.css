@@ -283,7 +283,7 @@ video {
 }
 
 /* スマホ写した時 */
-@media screen and (max-width: 480px){
+@media screen and (max-width: 414px) and (max-height: 811px){
   /* .room {
     display: grid;
     grid-template-columns: 30% 40% 30%;
@@ -532,4 +532,157 @@ button#test1:hover {
   text-align: center;
   color: #fff;
   z-index: 102;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+  .camera-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #FFF;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    overflow: hidden;
+    transition: .4s;
+  }
+  .camera-btn:before {
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url("./video_ON.png") no-repeat;
+    background-size: contain;
+    vertical-align: middle;
+  }
+  
+  .camera-btn:hover{
+    background: #ffffff;
+  }
+  
+  .camera-btn_OFF{
+    display: inline-block;
+    text-decoration: none;
+    background: #E26522;
+    color: #FFF;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    overflow: hidden;
+    transition: .4s;
+  }
+  .camera-btn_OFF:before {
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url("./video_OFF.png") no-repeat;
+    background-size: contain;
+    vertical-align: middle;
+  }
+  
+  .camera-btn_OFF:hover{
+    background: #E26522;
+  }
+  
+  .mic-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #FFF;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    overflow: hidden;
+    transition: .4s;
+  }
+  .mic-btn:hover{
+    background: #ffffff;
+  }
+  .mic-btn:before {
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url("./mic_ON.png") no-repeat;
+    background-size: contain;
+    vertical-align: middle;
+  }
+  
+  .mic-btn_OFF{
+    display: inline-block;
+    text-decoration: none;
+    background: #E26522;
+    color: #FFF;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    overflow: hidden;
+    transition: .4s;
+  }
+  .mic-btn_OFF:hover{
+    background: #E26522;
+  }
+  .mic-btn_OFF:before {
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url("./mic_OFF.png") no-repeat;
+    background-size: contain;
+    vertical-align: middle;
+  }
+  .leave-btn{
+    display: inline-block;
+    text-decoration: none;
+    background: #FF0404;
+    color: #FFF;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    overflow: hidden;
+    transition: .4s;
+  }
+  .leave-btn:before {
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url("./Leave.png") no-repeat;
+    background-size: contain;
+    vertical-align: middle;
+  }
+  
+  .share-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #FFF;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    overflow: hidden;
+    transition: .4s;
+  }
+  .share-btn:before {
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url("./share.png") no-repeat;
+    background-size: contain;
+    vertical-align: middle;
+  }
+  .share-btn:hover{
+    background: #FFFFFF;
+  }
 }
