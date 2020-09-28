@@ -73,7 +73,7 @@ video {
 .room .remote-streams {
   border: solid;
   background-color: #3B1D70;
-  border-color: #3B1D70;;
+  border-color: #3B1D70;
 }
 
 .room .messages {
@@ -279,8 +279,9 @@ video {
 }
 
 .button-center{
-  text-align:center;
+  text-align: center;
 }
+
 /* スマホ写した時 */
 @media screen and (max-width: 480px){
   /* .room {
