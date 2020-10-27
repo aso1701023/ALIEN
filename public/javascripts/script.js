@@ -118,7 +118,7 @@ const Peer = window.Peer;
       //remoteVideo.srcObject.getTracks().forEach(track => track.stop());
       remoteVideo.srcObject = null;
       remoteVideo.remove();
-
+      remoteVideo_count -= 1;
     });
     // for closing myself(自分の退出)
     room.once('close', () => {
