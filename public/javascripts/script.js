@@ -87,12 +87,13 @@ const Peer = window.Peer;
       // Webコンテンツ上で表示／再生するメディアのソースとなるストリーム（MediaStream）を取得／設定するために使用する。
       newVideo.srcObject = stream;
       //他ユーザーの総数に配列として追加
-      remoteVideo_Array.unshift(stream.peerId);
+      remoteVideo_Array.unshift(stream.peerId.toString());
       console.log(remoteVideo_Array);
       // skyWayと接続(ONにする)
       newVideo.playsInline = true;
       // mark peerId to find it later at peerLeave event
       // 誰かが退出した時どの人が退出したかわかるように、data-peer-idを付与
+      newVideo.setAttribute('data-peer-id', stream.peerId);
       newVideo.setAttribute('id', stream.peerId);
       //スマホの大きさに調節
       newVideo.setAttribute('style','transform: scaleX(-1);height: 40vh;');
@@ -196,7 +197,7 @@ toggleSpeaker.addEventListener('click', () => {
       }
     }
     else {
-      for(var i=0;i<=remoteVideo_Array.length;i++){
+      for(var i=0;i<remoteVideo_Array.length;i++){
         console.log(remoteVideo_Array[i]);
         var videoElem = document.getElementById(remoteVideo_Array[i]);
         videoElem.muted = !videoElem.muted;
